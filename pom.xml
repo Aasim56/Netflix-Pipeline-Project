@@ -60,7 +60,12 @@
                     <target>11</target>
                 </configuration>
             </plugin>
-        </plugins>
-    </build>
+                 <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>3.4.0</version>
+        </plugin>
+    </plugins>
+</build>
 </project>
 
